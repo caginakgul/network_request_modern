@@ -33,6 +33,7 @@ public class MainViewModel extends ViewModel{
     public void init(@NonNull Context context){
         this.context=context;
         contactResponseObservable = new MutableLiveData<>();
+        Log.d("init","init");
     }
 
 
